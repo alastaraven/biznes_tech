@@ -1,0 +1,451 @@
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css" media="screen,projection">
+	<title>BiznesTech</title>
+	<style>
+		html {
+			font-family: GillSans, Calibri, sans-serif;
+		}
+
+		body {
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+		}
+
+		main {
+			flex: 1 0 auto;
+		}
+
+		.btn,
+		.btn-large {
+			border-radius: 10px !important;
+		}
+
+		.card {
+			border-radius: 20px !important;
+		}
+
+		.card-action {
+			border-radius: 0 0 20px 20px !important;
+		}
+
+		img {
+			border-radius: 20px 20px 0 0 !important;
+		}
+	</style>
+</head>
+<header>
+	<nav class="white blue-text lighten-1 z-depth-0 nav-extended" role="navigation">
+		<div class="nav-wrapper">
+			<div class="container">
+				<div class="nav-content">
+					<a href="#!" class="brand-logo blue-text right hide-on-med-and-up"><i
+							style="padding:0.5em 0 0 0;margin-right: 10px; font-size: 1em;"
+							class="large material-icons">security</i></a>
+					<a href="#!" class="brand-logo blue-text left hide-on-small-only"><i
+							style="padding:0.5em 0 0 0; font-size: 2em;" class="large material-icons">security</i></a>
+					<div class="row valign-wrapper">
+						<div class="col 6 s12 offset-m2 offset-l1 left valign">
+							<p style="padding: 0em; margin:2em 0 0 0; line-height: 1em;">Центр бухгалтерских и
+								юридических
+								услуг</p>
+							<h1 class="nav-title" style="padding:0em; margin: 0px; line-height: 1em; font-weight: 600;">
+								БИЗНЕС ТЕХНОЛОГИИ</h1>
+							<ul class="right">
+								<li>
+									<div class="row valign-wrapper" style="padding:0em; margin-right:1em;">
+										<div class="col">
+											<div class="valign-wrapper">
+												<i class="material-icons prefix">phone</i>
+												<a class="flow-text orange-text" href="tel:">8 (989) 898-98-98</a>
+											</div>
+											<div class="valign-wrapper">
+												<i class="material-icons prefix">mail</i>
+												<a class="flow-text orange-text" href="mailto:">biznes@adres.mail</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<button class="waves-effect btn-small white hoverable blue-text btn-large modal-trigger"
+										data-target="modal1">
+										Разработка сайтов</button>
+								</li>
+							</ul>
+						</div>
+						<!-- Modal Structure -->
+						<div id="modal1" class="modal" style="border-radius:10px;">
+							<div class="modal-content center">
+								<p style="font-weight: 600; font-size: 20px;" class="black-text">BIZNES ZONE</p>
+								<h5>Разработаем новый сайт или переделаем старый!</h5>
+								<p>Выберите любой удобный для вас способ связи:</p>
+								<span class="grey-text darken" style="font-size: 18px;">Телефон: </span><a class="flow-text orange-text"
+									href="tel:89283175808">8 (928) 317-58-08</a>
+								<p><span class="grey-text darken" style="font-size: 18px;">Email: </span><a
+										class="flow-text orange-text" href="mailto:bizneszona@yandex.ru">bizneszona@yandex.ru</a></p>
+							</div>
+							<div class="modal-footer">
+								<a href="#!" class="modal-close waves-effect waves-blue btn-flat">Закрыть</a>
+							</div>
+						</div>
+						<a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+							<i class="material-icons blue-text">menu</i></a>
+					</div>
+					<div class="divider"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container row">
+			<ul class="left hide-on-med-and-down">
+				<li><a class="blue-text" href="#team">Команда</a></li>
+				<li><a class="blue-text" href="#achieves">Достижения</a></li>
+				<li><a class="blue-text" href="#prices">Услуги</a></li>
+				<li><a class="blue-text" href="#contacts">Контакты</a></li>
+				<li></li>
+			</ul>
+		</div>
+	</nav>
+	<ul class="sidenav" id="mobile-demo">
+		<li><a class="blue-text" href="#team">Команда</a></li>
+		<li><a class="blue-text" href="#achieves">Достижения</a></li>
+		<li><a class="blue-text" href="#prices">Услуги</a></li>
+		<li><a class="blue-text" href="#contacts">Контакты</a></li>
+	</ul>
+</header>
+<main class="container">
+	<!-- Главный экран -->
+	<section class="row">
+		<div class="col s12 m6">
+			<div class="card z-depth-3 hoverable">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator"
+						src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator" style="font-weight:500; font-size:30px;">Бухгалтерские услуги
+						<i class="small material-icons blue-text right">info</i></span>
+					<p><a href="#prices">Сколько стоит услуга?</a></p>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">Бухгалтерские услуги
+						<i class="material-icons right">close</i></span>
+					<ul class="flow-text">
+						<li>Бухгалтерские услуги ИП и ООО для оптовой и розничной торговли, малого производства,
+							сферы услуг, общепита,
+							маркетплейсов;</li>
+						<br>
+						<li>Абонентское бухгалтерское сопровождение;</li>
+						<br>
+						<li>Разовые бухгалтерские услуги (составление заявлений на УСН и Патент, разблокировка расчетного счета,
+							составление деклараций 3-НДФЛ, сверка по налогам и сборам и взносам с ИФНС, сдача нулевых деклараций по ИП
+							и ООО, освобождение от НДС по 145 НК РФ);</li>
+						<br>
+						<li>Консультации по оптимизации учета в компании;</li>
+						<br>
+						<li>Восстановление бухгалтерского, кадрового и налогового учета;</li>
+						<br>
+						<li>Подбор банка и открытие расчетного счета;</li>
+						<br>
+						<li>Изготовление печатей.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6">
+			<div class="card z-depth-3 hoverable">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator"
+						src="https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator" style="font-weight:500; font-size:30px;">Юридические услуги
+						<i class="small material-icons blue-text right">info</i></span>
+					<p><a href="#prices">Сколько стоит услуга?</a></p>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">Юридические услуги
+						<i class="material-icons right">close</i></span>
+					<ul class="flow-text">
+						<li>Подготовка договоров, любых документов правового характера;</li>
+						<br>
+						<li>Абонентское юридическое обслуживание;</li>
+						<br>
+						<li>Представительство в суде;</li>
+						<br>
+						<li>Расторжение договоров;</li>
+						<br>
+						<li>Регистрация, ликвидация, реорганизация ООО, АО, НКО, ИП;</li>
+						<br>
+						<li>Сопровождение деятельности некоммерческих организаций (НКО);</li>
+						<br>
+						<li>Оформление лицензий на осуществление медицинской деятельности;</li>
+						<br>
+						<li>Комплекс юридических услуг для медицинских организаций: представление интересов клиник в споре с
+							пациентами, заполнение ЕГИСЗ, представительство при проверках контролирующих органов;</li>
+						<br>
+						<li>Консультации юриста.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Команда -->
+	<section id="team">
+		<h2 class="center">Наша команда</h2>
+	</section>
+	<div class="row">
+		<div class="col s12 m6 l3">
+			<div class="card z-depth-2 hoverable">
+				<div class="card-image">
+					<img
+						src="https://images.unsplash.com/photo-1596087675850-350e5f6e87b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=888&q=80">
+					<span class="card-title" style="font-weight: 500;">Елена Р.</span>
+				</div>
+				<div class="card-content">
+					<p>Наш лучший бухгалтер</p>
+				</div>
+				<div class="card-action">
+					<a href="#">Контактная информация</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l3">
+			<div class="card z-depth-2 hoverable">
+				<div class="card-image">
+					<img
+						src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
+					<span class="card-title" style="font-weight: 500;">Егор Г.</span>
+				</div>
+				<div class="card-content">
+					<p>Самый профессиональный юрист</p>
+				</div>
+				<div class="card-action">
+					<a href="#">Контактная информация</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l3">
+			<div class="card z-depth-2 hoverable">
+				<div class="card-image">
+					<img
+						src="https://images.unsplash.com/photo-1484684096794-03e03b5e713e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
+					<span class="card-title" style="font-weight: 500;">Олег Н.</span>
+				</div>
+				<div class="card-content">
+					<p>Отец-основатель</p>
+				</div>
+				<div class="card-action">
+					<a href="#">Контактная информация</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l3">
+			<div class="card z-depth-2 hoverable">
+				<div class="card-image">
+					<img
+						src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
+					<span class="card-title" style="font-weight: 500;">Борис А.</span>
+				</div>
+				<div class="card-content">
+					<p>Менеджер и очень хороший человек</p>
+				</div>
+				<div class="card-action">
+					<a href="#">Контактная информация</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Достижения -->
+	<section id="achieves" class="center">
+		<h2>
+			Достижения
+		</h2>
+	</section>
+	<div class="row">
+		<div class="col s12 m6">
+			<div class="icon-block">
+				<h2 class="center light-blue-text"><i class="large material-icons">flash_on</i></h2>
+				<h5 class="center">Команда победителей</h5>
+
+				<p class="light">Наша команда является победителем регионального этапа Национальной премии в области
+					предпринимательской деятельности «Золотой Меркурий» по итогам 2021 года в номинации «Успешный Старт».</p>
+			</div>
+		</div>
+
+		<div class="col s12 m6">
+			<div class="icon-block">
+				<h2 class="center light-blue-text"><i class="large material-icons">group</i></h2>
+				<h5 class="center">Доверие и рост</h5>
+
+				<p class="light">Наши знания, стремления и опыт помогают многим компаниям достичь процветания и получить
+					оптимальные результаты от своей деятельности. Мы помогаем оптимизировать вашу налоговую нагрузку. Подберем
+					режим налогообложения и организационно-правовую форму. Нам доверяют.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Услуги -->
+	<section id="prices" class="center">
+		<h2>
+			Стоимость услуг
+		</h2>
+	</section>
+	<div class="row">
+		<div class="col s12 m6 l6 center">
+			<div class="card blue-grey darken-1 hoverable">
+				<div class="card-content white-text">
+					<span class="card-title">от 500 руб</span>
+					<p class="flow-text" style="font-weight: 600;">Подготовка деклараций</p>
+				</div>
+				<div class="card-action">
+					<a style="margin-right: 0px;" href="#">Посмотреть отзывы</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l6 center">
+			<div class="card blue-grey darken-1 hoverable">
+				<div class="card-content white-text">
+					<span class="card-title">от 1000 руб</span>
+					<p class="flow-text" style="font-weight: 600;">Регистрация бизнеса</p>
+				</div>
+				<div class="card-action">
+					<a style="margin-right: 0px;" href="#">Посмотреть отзывы</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l6 center">
+			<div class="card blue-grey darken-1 hoverable">
+				<div class="card-content white-text">
+					<span class="card-title">от 700 руб</span>
+					<p class="flow-text" style="font-weight: 600;">Консультации</p>
+				</div>
+				<div class="card-action center">
+					<a style="margin-right: 0px;" href="#">Посмотреть отзывы</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l6 center">
+			<div class="card blue-grey darken-1 hoverable">
+				<div class="card-content white-text">
+					<span class="card-title">от 1000 руб</span>
+					<p class="flow-text" style="font-weight: 600;">Ликвидация бизнеса</p>
+				</div>
+				<div class="card-action center">
+					<a style="margin-right: 0px;" href="#">Посмотреть отзывы</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="contacts" class="center">
+		<h2>
+			Связаться с нами
+		</h2>
+		<div class="row">
+			<form action="" method="get">
+				<div class="col m6">
+					<div class="input-field">
+						<i class="material-icons prefix">person</i>
+						<input id="icon_prefix" type="text" class="validate">
+						<label for="icon_prefix">Имя</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">phone</i>
+						<input id="icon_telephone" type="tel" class="validate">
+						<label for="icon_telephone">Телефон</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">mail</i>
+						<input id="icon_mail" type="email" class="validate">
+						<label for="icon_mail">Почта</label>
+					</div>
+				</div>
+				<div class="col m6">
+					<div class="input-field">
+						<i class="material-icons prefix">location_on</i>
+						<textarea id="gorod" class="materialize-textarea" maxlength="20" data-length="20"></textarea>
+						<label for="gorod">Город</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">textsms</i>
+						<textarea id="komment" class="materialize-textarea" maxlength="200" data-length="200"></textarea>
+						<label for="komment">Комментарии</label>
+					</div>
+					<button class="right orange btn-large waves-effect waves-light" type="submit" name="action">Отправить
+						<i class="material-icons right">send</i>
+					</button>
+				</div>
+
+			</form>
+		</div>
+	</section>
+</main>
+
+<footer class="page-footer grey">
+	<div class="container">
+		<div class="row">
+			<div class="col l4 m3 s12">
+				<h5 class="white-text" style="font-weight: 600;">БИЗНЕС ТЕХНОЛОГИИ</h5>
+				<p class="grey-text text-lighten-4">Центр бухгалтерских и юридических услуг</p>
+				<a class="orange-text text-lighten-3" href="#!">Политика конфиденциальности</a>
+			</div>
+			<div class="col l4 m5 s12">
+				<div class="valign-wrapper" style="padding-top: 1em;">
+					<i class="material-icons prefix" style="padding-right: 1em;">phone</i>
+					<a class="flow-text orange-text text-lighten-3" href="tel:">8 (989) 898-98-98</a>
+				</div>
+				<div class="valign-wrapper">
+					<i class="material-icons prefix" style="padding-right: 1em;">mail</i>
+					<a class="flow-text orange-text text-lighten-3" href="mailto:">biznes@adres.mail</a>
+				</div>
+			</div>
+			<div class="col l4 m4 s12">
+				<h5 class="white-text">Меню</h5>
+				<ul>
+					<li><a class="light-blue-text text-lighten-5" href="#team">Команда</a></li>
+					<li><a class="light-blue-text text-lighten-5" href="#achieves">Достижения</a></li>
+					<li><a class="light-blue-text text-lighten-5" href="#prices">Услуги</a></li>
+					<li><a class="light-blue-text text-lighten-5" href="#contacts">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<span class="grey-text text-lighten-1 left">© 2022 Все права защищены</span>
+			<a class="grey-text text-lighten-4 right modal-trigger" href="#modal1"> <span
+					class="orange-text text-lighten-3">Biznes
+					Zone</span> - разработка сайтов для любого бизнеса</a>
+
+		</div>
+
+	</div>
+	<div class="center blue">
+		Сайт размещён на <a class="orange-text text-lighten-3" href="#!">лучшем хостинге Beget</a>
+	</div>
+</footer>
+
+<body>
+	<script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
+	<!-- инициализация sidenav мобильного меню -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems);
+		});
+	</script>
+	<!-- инициализация модального онка -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var elems = document.querySelectorAll('.modal');
+			var instances = M.Modal.init(elems);
+		});
+	</script>
+</body>
+
+</html>
